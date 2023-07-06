@@ -1,0 +1,52 @@
+type: ItemTurret
+size: 2
+requirements: [
+copper/500
+graphite/250
+]
+reload: 12
+range: 500
+inaccuracy: 2
+shootCone: 10
+health: 750
+shootSound: shootSmall
+coolantMultiplier: 1.5
+shootX: 1
+shoot: {
+    type: ShootAlternate
+    }
+ammoTypes: {
+    copper: {
+    lifetime: 35
+    speed: 15
+    backColor: ffa600
+    frontColor: ffa600
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 100
+    width: 6
+    height: 13
+    fragRandomSpread: 0
+    fragSpread: 25
+    fragLifeMax: 2
+    fragBullets: 15
+    fragBullet:{
+      damage: 15
+      speed: 9
+      lifetime: 5
+      height: 12
+      width: 2
+       }
+}
+}
+category: turret
+research: ripple
+researchCostMultiplier: 5
+coolantMultiplier: 1.5
+consumes: {
+coolant: {
+liquid: water
+amount: 0.75
+optional: true
+booster: true
+}}
