@@ -3,43 +3,49 @@ size: 2
 requirements: [
 copper/100
 ]
-reload: 50
+reload: 180 //burst interval
+shoot: {
+        shots: 6 //shot count
+        shotDelay: 15 //shot interval
+}
+
 range: 1000
-inaccuracy: 25
-shootCone: 10
+inaccuracy: 10
+shootCone: 5
 shootSound: shootSmall
 health: 500
 coolantMultiplier: 1.5
 
 ammoTypes: {
     copper: {
-    type: MissileBulletType
-    lifetime: 100
-    homing: false
-    homingDelay: -1
-    intervalBullets: 6
-    intervalSpread: 5
-    shotDelay: 6
-    speed: 10
-    backColor: ffa600
-    frontColor: ffa600
-    hitEffect: blastExplosion
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    damage: 100
-    width: 6
-    height: 15
-}
-
+        type: MissileBulletType
+        lifetime: 100
+        homing: false
+        homingDelay: -1
+        intervalBullets: 6
+        intervalSpread: 5
+        shotDelay: 6
+        speed: 10
+        backColor: ffa600
+        frontColor: ffa600
+        hitEffect: blastExplosion
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        damage: 100
+        width: 6
+        height: 15
+    }
 }
 category: turret
 research: ripple
 researchCostMultiplier: 5
 coolantMultiplier: 1.5
+
 consumes: {
-coolant: {
-liquid: water
-amount: 0.75
-optional: true
-booster: true
-}}
+    coolant: {
+        liquid: water
+        amount: 0.75
+        optional: true
+        booster: true
+    }
+}
