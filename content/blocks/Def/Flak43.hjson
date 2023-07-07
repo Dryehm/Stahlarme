@@ -9,7 +9,7 @@ range: 500
 inaccuracy: 2
 shootCone: 10
 health: 750
-shootSound: shootSmall
+shootSound: 37mm
 coolantMultiplier: 1.5
 shootX: 1
 shoot: {
