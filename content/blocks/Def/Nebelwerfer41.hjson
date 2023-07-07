@@ -3,15 +3,15 @@ size: 2
 requirements: [
 copper/100
 ]
-reload: 180 //burst interval
+reload: 250 //burst interval
 shoot: {
         shots: 6 //shot count
-        shotDelay: 15 //shot interval
+        shotDelay: 12 //shot interval
 }
 
 range: 1000
-inaccuracy: 10
-shootCone: 5
+inaccuracy: 15
+shootCone: 7
 shootSound: shootSmall
 health: 500
 coolantMultiplier: 1.5
@@ -31,7 +31,7 @@ ammoTypes: {
         hitEffect: blastExplosion
         shootEffect: shootSmall
         smokeEffect: shootSmallSmoke
-        damage: 100
+        damage: 125
         width: 6
         height: 15
     }
