@@ -9,6 +9,7 @@ inaccuracy: 2
 shootCone: 10
 health: 500
 coolantMultiplier: 1.5
+shootSound: mg
 ammoTypes: {
     copper: {
     lifetime: 23
