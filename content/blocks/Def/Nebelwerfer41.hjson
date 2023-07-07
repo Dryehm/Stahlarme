@@ -10,8 +10,8 @@ shoot: {
 }
 
 range: 1000
-inaccuracy: 15
-shootCone: 7
+inaccuracy: 10
+shootCone: 5
 shootSound: shootSmall
 health: 500
 coolantMultiplier: 1.5
