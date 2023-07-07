@@ -1,42 +1,36 @@
 type: ItemTurret
 size: 2
 requirements: [
-copper/500
-graphite/250
+copper/100
 ]
-reload: 12
-range: 500
-inaccuracy: 2
+reload: 50
+range: 1000
+inaccuracy: 25
 shootCone: 10
-health: 750
 shootSound: shootSmall
+health: 500
 coolantMultiplier: 1.5
-shootX: 1
-shoot: {
-    type: ShootAlternate
-    }
+
 ammoTypes: {
     copper: {
-    lifetime: 35
-    speed: 15
+    type: MissileBulletType
+    lifetime: 100
+    homing: false
+    homingDelay: -1
+    intervalBullets: 6
+    intervalSpread: 5
+    shotDelay: 6
+    speed: 10
     backColor: ffa600
     frontColor: ffa600
+    hitEffect: blastExplosion
+    shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 50
+    damage: 100
     width: 6
-    height: 14
-    fragRandomSpread: 0
-    fragSpread: 3
-    fragLifeMax: 2
-    fragBullets: 15
-    fragBullet:{
-      damage: 8
-      speed: 9
-      lifetime: 5
-      height: 12
-      width: 2
-       }
+    height: 15
 }
+
 }
 category: turret
 research: ripple

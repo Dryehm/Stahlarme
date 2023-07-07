@@ -7,7 +7,7 @@ graphite/250
 reload: 325
 range: 750
 recoil: 4
-inaccuracy: 2
+inaccuracy: 1
 shootCone: 10
 health: 750
 ammoPerShot: 10
@@ -23,7 +23,7 @@ ammoTypes: {
     frontColor: ffa600
     shootEffect: shootSmall
     smokeEffect: smokeCloud
-    damage: 2500
+    damage: 2000
     width: 12
     height: 25
     fragRandomSpread: 0
