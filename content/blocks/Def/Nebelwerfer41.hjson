@@ -25,6 +25,7 @@ ammoTypes: {
         intervalBullets: 6
         intervalSpread: 5
         shotDelay: 6
+        scaleLife: true
         speed: 10
         backColor: ffa600
         frontColor: ffa600
