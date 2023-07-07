@@ -20,7 +20,7 @@ ammoTypes: {
     copper: {
         type: MissileBulletType
         lifetime: 100
-        homing: false
+        homingPower: 0
         homingDelay: -1
         intervalBullets: 6
         intervalSpread: 5
