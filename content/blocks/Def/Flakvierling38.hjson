@@ -9,6 +9,7 @@ range: 300
 inaccuracy: 2
 shootCone: 10
 health: 500
+shootSound: 20mm
  shoot: {
     type: ShootAlternate
     }
