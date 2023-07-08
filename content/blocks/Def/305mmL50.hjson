@@ -4,8 +4,8 @@ requirements: [
 copper/2500
 graphite/2000
 titanium/1500
-surgealloy/500
-plastinium/750
+surgeAlloy/500
+plastanium/750
 silicon/1000
 ]
 reload: 775
@@ -13,7 +13,7 @@ range: 2000
 recoil: 5
 inaccuracy: 1
 shootCone: 10
-health: 7500
+health: 25000
 ammoPerShot: 25
 shootSound: artillery
 coolantMultiplier: 1.1
