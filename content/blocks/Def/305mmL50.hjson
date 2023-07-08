@@ -15,7 +15,7 @@ inaccuracy: 1
 shootCone: 10
 health: 25000
 ammoPerShot: 25
-shootSound: artillery
+shootSound: tempcannon
 coolantMultiplier: 1.1
 targetAir: false
 shoot: {
