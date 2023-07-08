@@ -4,7 +4,7 @@ requirements: [
 copper/2500
 graphite/2000
 titanium/1500
-surgeAlloy/500
+surge-alloy/500
 plastanium/750
 silicon/1000
 ]
