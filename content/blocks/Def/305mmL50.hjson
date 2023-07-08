@@ -1,5 +1,5 @@
 type: ItemTurret
-size: 4
+size: 5
 requirements: [
 copper/500
 graphite/250
