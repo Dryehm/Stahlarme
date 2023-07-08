@@ -1,11 +1,11 @@
 type: ItemTurret
-size: 5
+size: 6
 requirements: [
 copper/500
 graphite/250
 ]
-reload: 500
-range: 1500
+reload: 750
+range: 2000
 recoil: 5
 inaccuracy: 1
 shootCone: 10
@@ -19,13 +19,13 @@ shoot: {
     }
 ammoTypes: {
     copper: {
-    lifetime: 170
+    lifetime: 225
     speed: 9
     backColor: ffa600
     frontColor: ffa600
     shootEffect: shootSmall
     smokeEffect: smokeCloud
-    damage: 5000
+    damage: 7500
     width: 24
     height: 52
     fragRandomSpread: 0
@@ -33,7 +33,7 @@ ammoTypes: {
     fragLifeMax: 2
     fragBullets: 50
     fragBullet:{
-      damage: 250
+      damage: 400
       speed: 9
       lifetime: 5
       height: 16
@@ -56,11 +56,11 @@ lead: {
     fragLifeMax: 2
     fragBullets: 150
     fragBullet:{
-      damage: 100
+      damage: 250
       speed: 12
-      lifetime: 6
+      lifetime: 8
       height: 12
-      width: 3
+      width: 4
        }
 }
 }
