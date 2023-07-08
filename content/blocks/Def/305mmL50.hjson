@@ -1,10 +1,14 @@
 type: ItemTurret
 size: 6
 requirements: [
-copper/500
-graphite/250
+copper/2500
+graphite/2000
+titanium/1500
+surgealloy/500
+plastinium/750
+silicon/1000
 ]
-reload: 750
+reload: 775
 range: 2000
 recoil: 5
 inaccuracy: 1
@@ -12,7 +16,7 @@ shootCone: 10
 health: 7500
 ammoPerShot: 25
 shootSound: artillery
-coolantMultiplier: 1.5
+coolantMultiplier: 1.1
 targetAir: false
 shoot: {
     type: ShootAlternate
@@ -67,11 +71,11 @@ lead: {
 category: turret
 research: ripple
 researchCostMultiplier: 5
-coolantMultiplier: 1.5
+coolantMultiplier: 1.1
 consumes: {
 coolant: {
 liquid: water
-amount: 0.75
+amount: 50
 optional: true
 booster: true
 }}
