@@ -6,7 +6,7 @@ weapons: [{
   name: 88mm
   x: 0
   y: 2
-  reload: 150
+  reload: 250
   mirror: false
   shots: 1
   shootCone: 100
@@ -39,18 +39,18 @@ weapons: [{
   shake: 1
   inaccuracy: 1
   alternate: false
-  reload: 3
+  reload: 5
   bullet: {
     type: BasicBulletType
     speed: 15
     damage: 5
     lifetime: 30
-    width: 2
-    height: 3
+    width: 3
+    height: 4
     collides: true
     collidesTiles: true
-    backColor: ffa600
-    frontColor: ffa600
+    backColor: bfff00
+    frontColor: bfff00
   }
   shootSound: mg
 }
