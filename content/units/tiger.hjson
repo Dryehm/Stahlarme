@@ -1,0 +1,55 @@
+type: legs
+legCount: 2
+speed: 1
+health: 8000
+targetAir: false
+weapons: [{
+  name: 88mm
+  x: 0
+  y: 2
+  reload: 150
+  mirror: false
+  shots: 1
+  shootCone: 100
+  shake: 1
+  inaccuracy: 1
+  alternate: false
+  ejectEffect: none
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 12
+    damage: 1000
+    hitEffect: blastExplosion
+    knockback: 1
+    lifetime: 45
+    width: 12
+    height: 2
+    collides: true
+    collidesTiles: true
+    splashDamageRadius: 10
+    splashDamage: 25
+    backColor: ffa600
+    frontColor: ffa600
+  }
+  shootSound: artillery
+  }
+{
+  name: mg34
+  x: 2
+  y: 2
+  reload: 3
+  bullet: {
+    type: BasicBulletType
+    speed: 15
+    damage: 5
+    lifetime: 30
+    width: 2
+    height: 3
+    collides: true
+    collidesTiles: true
+    backColor: ffa600
+    frontColor: ffa600
+  }
+  shootSound: mg
+}
+]
