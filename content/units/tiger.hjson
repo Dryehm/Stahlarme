@@ -39,7 +39,8 @@ weapons: [{
   shake: 1
   inaccuracy: 1
   alternate: false
-  reload: 5
+  mirror: false
+  reload: 3.5
   bullet: {
     type: BasicBulletType
     speed: 15
