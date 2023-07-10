@@ -29,6 +29,7 @@ weapons: [{
     splashDamage: 25
     backColor: ffa600
     frontColor: ffa600
+    sprite: shell
   }
   shootSound: artillery
   }
