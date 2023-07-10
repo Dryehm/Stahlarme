@@ -37,6 +37,9 @@ weapons: [{
   name: mg34
   x: 2
   y: 2
+  shake: 1
+  inaccuracy: 1
+  alternate: false
   reload: 3
   bullet: {
     type: BasicBulletType
