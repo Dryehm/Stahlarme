@@ -1,6 +1,5 @@
-type: legs
-legCount: 2
-speed: 1
+type: tank
+speed: .75
 health: 8000
 targetAir: false
 weapons: [{
