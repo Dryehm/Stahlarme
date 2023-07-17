@@ -1,0 +1,19 @@
+Planes:
+Tier 1:
+Bf 109 E-3
+Fw 190 A-1
+Spitfire MK1
+A5M
+P-40
+Tier 2:
+Bf 109 G-2 (with AG)
+Fw 190 F-8
+Spitfire F Mk IX
+A6M
+P-51
+Tier 3:
+Me 262
+Ta 152 C-3
+Meteor F Mk 3
+Kikka
+F-84B-26
