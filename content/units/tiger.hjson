@@ -2,6 +2,7 @@ type: tank
 speed: .75
 health: 8000
 targetAir: false
+omniMovement: false
 weapons: [{
   name: 88mm
   x: 0
